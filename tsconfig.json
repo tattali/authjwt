@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "sourceMap": true,
+    "moduleResolution": "node",
+    "lib": [
+      "dom",
+      "es2015",
+      "es2016"
+    ],
+    "jsx": "react-jsx",
+    "target": "es6",
+    "allowJs": true,
+    "allowSyntheticDefaultImports": true,
+    "module": "esnext",
+    "strict": true
+  },
+  "compileOnSave": true,
+  "include": [
+    "assets/**/*"
+  ],
+  "exclude": [
+    "node_modules",
+    "build"
+  ]
+}
